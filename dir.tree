@@ -1,0 +1,27 @@
+root
+ ├── BT
+ ├── Downloads
+ │   ├── baidu
+ │   └── edge
+ ├── Github
+ ├── Help
+ │   └── Doc
+ ├── Important Info
+ ├── Program Files
+ ├── Project
+ │   ├── Java
+ │   ├── Node
+ │   ├── Python
+ │   ├── Tampermonkey
+ │   └── Vue
+ ├── Resources
+ │   ├── Music
+ │   ├── Picture
+ │   ├── System Image
+ │   └── Video
+ ├── Software Cache
+ ├── Test
+ ├── Tools
+ └── Workspace
+     ├── Code
+     └── Task Record
