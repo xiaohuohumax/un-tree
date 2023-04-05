@@ -12,11 +12,11 @@ class Tree(object):
 
     @classmethod
     def get_tree_level(cls, tree_line: str) -> int:
-        return len(re.findall(r'\s[├│└ ][\s─]{2}', tree_line))
+        return len(re.findall(r'\s?[├│└ ][\s─]{2}', tree_line))
 
     @classmethod
     def get_tree_name(cls, tree_line: str) -> str:
-        match = re.search(r'^((\s[├│└ ][\s─]{2})+\s)?(.*)', tree_line)
+        match = re.search(r'^((\s?[├│└ ][\s─]{2})+\s)?(.*)', tree_line)
         return match.group(3) if match else ""
 
     def un_tree(self, folder_root: Path, ignore_level: int = 0, ignore_line_flag: str = "#") -> None:

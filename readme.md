@@ -4,6 +4,14 @@
 
 ## 使用
 
+```shell
+# 准备 tree 文件
+tree -d > dir.tree
+# 修改脚本内容
+# 运行脚本
+python main.py
+```
+
 ```python
 from pathlib import Path
 
